@@ -6,6 +6,13 @@
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+a {
+    color: black;
+}
+.footerMain__sec--Tit {
+    font-weight: 500;
+    color: black;
+}
 /**  Tamaño Desktop  **/
 
 @media screen and (min-width: 768px) {
@@ -67,9 +74,10 @@ a:link, a:visited, a:active {
         margin-top: 10px;
     }
     .emailForm {
+        margin-bottom: 10px;
         height: 40px;
         line-height: 28px;
-        padding: 0 1rem;
+        padding: 10px 1rem;
         border: 2px solid transparent;
         border-radius: 8px;
         outline: none;
@@ -265,7 +273,6 @@ a:link, a:visited, a:active {
     }
     .buttonContacto {
         margin-top: 50px;
-    }
     }
 
 /**  Tamaño Mobile  **/
@@ -502,7 +509,6 @@ a:link, a:visited, a:active {
     .textoProd {
         text-align: center;
         margin: 10px 10px;
-
     }
     .aboutUs {
         text-align: center;
@@ -548,5 +554,4 @@ a:link, a:visited, a:active {
     }
     .buttonContacto {
         margin-top: 50px;
-    }
     }
