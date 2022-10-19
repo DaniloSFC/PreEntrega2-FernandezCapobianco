@@ -469,16 +469,25 @@ a:link, a:visited, a:active {
         align-content: space-between;
     }
     .articulos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 900px;
+        text-align: center;
+        display:contents;
+        max-width: auto;
         margin: auto;
         margin-top: 100px;
     }
     .articulos img {
-        width: 300px;
+        width: 600px;
+        margin-bottom: 20px;
+        margin-top: 20px;
         
+    }
+    .loQuiero {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .textoProd {
+        margin: ;
     }
     .aboutUs {
         text-align: center;
