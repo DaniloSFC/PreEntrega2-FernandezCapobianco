@@ -479,6 +479,8 @@ a:link, a:visited, a:active {
         width: 600px;
         margin-bottom: 20px;
         margin-top: 20px;
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        border-radius: 5%;
         
     }
     .loQuiero {
@@ -487,7 +489,9 @@ a:link, a:visited, a:active {
         text-align: center;
     }
     .textoProd {
-        margin: ;
+        text-align: center;
+        margin: 10px 10px;
+
     }
     .aboutUs {
         text-align: center;
@@ -535,4 +539,3 @@ a:link, a:visited, a:active {
         margin-top: 50px;
     }
     }
-    
