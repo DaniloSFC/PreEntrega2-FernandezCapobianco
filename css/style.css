@@ -464,9 +464,20 @@ a:link, a:visited, a:active {
         margin: auto;
         margin-top: 50px;
     }
-    .tiendaMainNav {
-        display:flex;
-        align-content: space-between;
+    .tiendaMainNav{
+        display: flex;
+    }
+    .tiendaMainNav__article {
+        text-align: left;
+        padding-left: 30%;
+    }
+    .tiendaMainNav__img {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .tiendaMainNav__Filter {
+        text-align: center;
+        padding-left: 20px;
     }
     .articulos {
         text-align: center;
