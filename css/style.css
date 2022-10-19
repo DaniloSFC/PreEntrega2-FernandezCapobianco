@@ -213,21 +213,84 @@ a {
         margin: auto;
         margin-top: 50px;
     }
-    .tiendaMainNav {
-        display:flex;
-        align-content: space-between;
+    .tiendaMain {
+        width: auto;
+        height: max-content;
+    }
+    }
+    .tiendaMainNav{
+        display: flex;
+        margin-top: 20px;
+    }
+    .tiendaMainNav__article {
+        text-align: left;
+        padding-left: 40%;
+    }
+    .tiendaMainNav__img {
+        text-align: left;
+        padding-left: 20px;
+    }
+    .tiendaMainNav__Filter {
+        text-align: center;
+        padding-left: 30px;
     }
     .articulos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 900px;
-        margin: auto;
-        margin-top: 100px;
+        position: static;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: auto;
+        height: 1300px;
+        width: 400px;
+    }
+    .articulo1 {
+        position: relative;
+        margin-left: 50px;
+    }
+    .articulo2 {
+        position: relative;
+        bottom: 475px;
+        left: 600px;
+    }
+    .articulo3 {
+        position: relative;
+        bottom: 930px;
+        left: 1140px;
+    }
+    .articulo4 {
+        position: relative;
+        margin-left: 50px;
+        bottom: 720px;
+    }
+    .articulo5 {
+        position: relative;
+        margin: 0;
+        bottom: 1200px;
+        left: 600px;
+    }
+    .articulo6 {
+        position: relative;
+        margin: 0;
+        bottom: 930px;
+        left: 1140px;
+        bottom: 1680px;
     }
     .articulos img {
-        width: 300px;
-        
+        width: 400px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        border-radius: 5%;
+    }
+    .textoProd {
+        text-align: center;
+    }
+    .textoProd__tit {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .loQuiero {
+        left: 100px;
+        top: 30px;
     }
     .aboutUs {
         text-align: center;
@@ -499,7 +562,6 @@ a {
         margin-top: 20px;
         box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
         border-radius: 5%;
-        
     }
     .loQuiero {
         margin-top: 10px;
