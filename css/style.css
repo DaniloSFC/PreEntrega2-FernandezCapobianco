@@ -3,258 +3,529 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
-li{
-    list-style-type: none;
-}
-li a{
-    text-decoration: none;
-    color: black;
-}
-.header {
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    align-items: center;
-}
-.header__navBar {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    padding: 0 10px;
-}
-.header__logo {
-    height: 70px;
-    padding: 10px;
-}
-.header__navBar--icons img {
-    align-items: center;
-    padding: 0 10px;
-}
-.header__navBar li {
-    padding: 0 10px;
-}
-.footer {
-    width: 100%;
-    padding: 50px 0px;
-}
-.footerMain {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-}
-.footerMain__sec {
-    flex-direction: column;
-    display: flex;
-    padding: 30px;
-}
-.footerMain__sec h2 {
-    margin-bottom: 30px;
-    color: black;
-}
-.footerMain__sec li {
-    margin-top: 10px;
-}
-.emailForm {
-    height: 40px;
-    line-height: 28px;
-    padding: 0 1rem;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    outline: none;
-    background-color: #f3f3f4;
-    color: #0d0c22;
-    transition: .3s ease;
-}
-.emailForm::placeholder {
-    color: #9e9ea7;
-}
-.emailForm:focus, .emailForm:hover {
-    outline: none;
-    border-color: #C2ABAB;
-    background-color: #fff;
-    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
-}
+/**  Tamaño Desktop  **/
+
+@media screen and (min-width: 768px) {
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+    li{
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+    .header {
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__navBar {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        padding: 0 10px;
+    }
+    .header__logo {
+        height: 70px;
+        padding: 10px;
+    }
+    .header__navBar--icons img {
+        align-items: center;
+        padding: 0 10px;
+    }
+    .header__navBar li {
+        padding: 0 10px;
+    }
+    .footer {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .footerMain {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .footerMain__sec {
+        flex-direction: column;
+        display: flex;
+        padding: 30px;
+    }
+    .footerMain__sec h2 {
+        margin-bottom: 30px;
+        color: black;
+    }
+    .footerMain__sec li {
+        margin-top: 10px;
+    }
+    .emailForm {
+        height: 40px;
+        line-height: 28px;
+        padding: 0 1rem;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        outline: none;
+        background-color: #f3f3f4;
+        color: #0d0c22;
+        transition: .3s ease;
+    }
+    .emailForm::placeholder {
+        color: #9e9ea7;
+    }
+    .emailForm:focus, .emailForm:hover {
+        outline: none;
+        border-color: #C2ABAB;
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+    }
+
 /**  SEPARADOR  **/
-.main__sec1 {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-.main__sec1--img {
-    width: 100%;
-}
-.main__sec1--pp {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.sec1__p--1 {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    content: 200;
-}
-.sec1__p--2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 110px;
-    color: white;
-    content: 200;
-}
-.sec1__p--3 {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    content: 200;
-}
-.buttonStore {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 50px;
-}
-.divLine {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.secCenter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: cover;
-    margin: auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-}
-button {
-    padding: 15px 25px;
-    border: unset;
-    border-radius: 15px;
-    color: #212121;
-    z-index: 1;
-    background: #C2ABAB;
-    position: relative;
-    font-weight: 1000;
-    font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
-    overflow: hidden;
-}
-button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-}
-button:hover {
-    color: #e8e8e8;
-}
-button:hover::before {
-    width: 100%;
-}
-.mainFooter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1325px;
-    margin: auto;
-    margin-top: 100px;
-}
-.mainFooter__button2Main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 50px;
-}
-.tiendaMainNav {
-    display:flex;
-    align-content: space-between;
-}
-.articulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: auto;
-    margin-top: 100px;
-}
-.articulos img {
-    width: 300px;
-    
-}
-.aboutUs {
-    text-align: center;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-}
-.aboutUs h1 {
-    font-size: 60px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.aboutUs p {
-    align-items: center;
-}
-.cambiosyDev {
-    text-align: center;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-}
-.cambiosyDev h1 {
-    font-size: 60px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.cambiosyDev p {
-    align-items: center;
-}
-.firma {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.firmaAbUs {
-    margin-top: 100px;
-    margin-bottom: 10px;
-}
-.contacto {
-    width: 300px;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: #cfc8c8 ;
-}
-.buttonContacto {
-    margin-top: 50px;
-}
+
+    .main__sec1 {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .main__sec1--img {
+        width: 100%;
+    }
+    .main__sec1--pp {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .sec1__p--1 {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        content: 200;
+    }
+    .sec1__p--2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 110px;
+        color: white;
+        content: 200;
+    }
+    .sec1__p--3 {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        content: 200;
+    }
+    .buttonStore {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .divLine {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .secCenter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: cover;
+        margin: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: center;
+    }
+    button {
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #C2ABAB;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+    }
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+    }
+    button:hover {
+        color: #e8e8e8;
+    }
+    button:hover::before {
+        width: 100%;
+    }
+    .mainFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1325px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .mainFooter__button2Main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .tiendaMainNav {
+        display:flex;
+        align-content: space-between;
+    }
+    .articulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .articulos img {
+        width: 300px;
+        
+    }
+    .aboutUs {
+        text-align: center;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .aboutUs h1 {
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .aboutUs p {
+        align-items: center;
+    }
+    .cambiosyDev {
+        text-align: center;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .cambiosyDev h1 {
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .cambiosyDev p {
+        align-items: center;
+    }
+    .firma {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .firmaAbUs {
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    .contacto {
+        width: 300px;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #cfc8c8 ;
+    }
+    .buttonContacto {
+        margin-top: 50px;
+    }
+    }
+
+/**  Tamaño Mobile  **/
+
+@media screen and (max-width: 768px) {
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+    li{
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+    .header {
+        display: flex;
+        height: 70px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__navBar {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        padding:  10px;
+    }
+    .header__logo {
+        height: 70px;
+        padding: 10px;
+    }
+    .header__navBar--icons img {
+        align-items: right;
+        padding: 0 10px;
+    }
+    .header__navBar li {
+        padding: 0 10px;
+    }
+    .footer {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .footerMain {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .footerMain__sec {
+        flex-direction: column;
+        display: flex;
+        padding: 10px;
+    }
+    .footerMain__sec h2 {
+        margin-bottom: 50px;
+        color: black;
+    }
+    .footerMain__sec li {
+        margin-top: 10px;
+    }
+
+    /**  SEPARADOR  **/
+
+    .emailForm {
+        height: 40px;
+        line-height: 28px;
+        padding: 0 1rem;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        outline: none;
+        background-color: #f3f3f4;
+        color: #0d0c22;
+        transition: .3s ease;
+    }
+    .emailForm::placeholder {
+        color: #9e9ea7;
+    }
+    .emailForm:focus, .emailForm:hover {
+        outline: none;
+        border-color: #C2ABAB;
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+    }
+    .main__sec1 {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .main__sec1--img {
+        width: 100%;
+    }
+    .main__sec1--pp {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .sec1__p--1 {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        content: 200;
+    }
+    .sec1__p--2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        color: white;
+        content: 200;
+    }
+    .sec1__p--3 {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        content: 200;
+    }
+    .buttonStore {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: auto;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .divLine {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .secCenter {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: cover;
+        margin: auto;
+        padding-left: 10%;
+        padding-right: 2%;
+        text-align: center;
+    }
+    button {
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #C2ABAB;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+    }
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+    }
+    button:hover {
+        color: #e8e8e8;
+    }
+    button:hover::before {
+        width: 100%;
+    }
+    .mainFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1325px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .mainFooter__button2Main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .tiendaMainNav {
+        display:flex;
+        align-content: space-between;
+    }
+    .articulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .articulos img {
+        width: 300px;
+        
+    }
+    .aboutUs {
+        text-align: center;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .aboutUs h1 {
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .aboutUs p {
+        align-items: center;
+    }
+    .cambiosyDev {
+        text-align: center;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .cambiosyDev h1 {
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .cambiosyDev p {
+        align-items: center;
+    }
+    .firma {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .firmaAbUs {
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    .contacto {
+        width: 300px;
+        padding: 10px;
+        margin: 0 auto;
+        background-color: #cfc8c8 ;
+    }
+    .buttonContacto {
+        margin-top: 50px;
+    }
+    }
+
+
+
