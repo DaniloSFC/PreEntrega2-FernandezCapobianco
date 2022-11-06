@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2-fernandezcapobianco",
+  "version": "1.0.0",
+  "description": "El proyecto esta proyectado para un emprendimiento de tapizados. Esta compuesto por 5 pages, con su respectivo css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-patch scss scss/style.scss css/style.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniloSFC/PreEntrega2-FernandezCapobianco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniloSFC/PreEntrega2-FernandezCapobianco/issues"
+  },
+  "homepage": "https://github.com/DaniloSFC/PreEntrega2-FernandezCapobianco#readme",
+  "devDependencies": {
+    "node-scss": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
