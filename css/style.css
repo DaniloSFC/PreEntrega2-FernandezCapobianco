@@ -2,3 +2,86 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+li {
+  list-style-type: none; }
+  li a {
+    text-decoration: none;
+    color: black; }
+
+a:link, a:visited, a:active {
+  text-decoration: none; }
+
+a {
+  color: black; }
+
+.footerMain__sec--Tit {
+  font-weight: 500;
+  color: black; }
+
+.header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__navBar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0 10px; }
+
+.header__logo {
+  height: 70px;
+  padding: 10px; }
+
+.header__navBar--icons img {
+  align-items: center;
+  padding: 0 10px; }
+
+.header__navBar li {
+  padding: 0 10px; }
+
+.footer {
+  width: 100%;
+  padding: 50px 0px; }
+
+.footerMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px; }
+
+.footerMain__sec {
+  flex-direction: column;
+  display: flex;
+  padding: 30px; }
+  .footerMain__sec h2 {
+    margin-bottom: 30px;
+    color: black; }
+  .footerMain__sec li {
+    margin-top: 10px; }
+
+.emailForm {
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 28px;
+  padding: 10px 1rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease; }
+  .emailForm::placeholder {
+    color: #9e9ea7; }
+  .emailForm:focus, .emailForm:hover {
+    outline: none;
+    border-color: #C2ABAB;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(234, 76, 137, 0.1); }

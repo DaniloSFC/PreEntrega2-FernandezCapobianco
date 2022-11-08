@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.footerMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.footerMain__sec {
+    flex-direction: column;
+    display: flex;
+    padding: 30px;
+    h2 {
+    margin-bottom: 30px;
+    color: black;
+}
+    li {
+    margin-top: 10px;
+    }
+}
+
+.emailForm {
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 28px;
+    padding: 10px 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+
+    &::placeholder {
+        color: #9e9ea7;
+    }
+
+    &:focus, &:hover {
+    outline: none;
+    border-color: $color-principal;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px $color-borde-form;
+    }
+}
