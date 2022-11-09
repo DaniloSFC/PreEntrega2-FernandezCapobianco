@@ -220,78 +220,104 @@ button {
 
 .tiendaMain {
   width: auto;
-  height: max-content; }
+  height: fit-content; }
+  .tiendaMain .nav {
+    display: flex;
+    margin-top: 20px; }
+  .tiendaMain .article {
+    text-align: left;
+    padding-left: 40%; }
+  .tiendaMain .filterImg {
+    text-align: left;
+    padding-left: 20px; }
+  .tiendaMain .filter {
+    text-align: center;
+    padding-left: 30px; }
+  .tiendaMain .articulos {
+    position: static;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: auto;
+    height: 1300px;
+    width: 400px; }
+  .tiendaMain .articulo1 {
+    position: relative;
+    margin-left: 50px; }
+  .tiendaMain .articulo2 {
+    position: relative;
+    bottom: 475px;
+    left: 600px; }
+  .tiendaMain .articulo3 {
+    position: relative;
+    bottom: 930px;
+    left: 1140px; }
+  .tiendaMain .articulo4 {
+    position: relative;
+    margin-left: 50px;
+    bottom: 720px; }
+  .tiendaMain .articulo5 {
+    position: relative;
+    margin: 0;
+    bottom: 1200px;
+    left: 600px; }
+  .tiendaMain .articulo6 {
+    position: relative;
+    margin: 0;
+    bottom: 930px;
+    left: 1140px;
+    bottom: 1680px; }
+  .tiendaMain .articulos img {
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    border-radius: 5%; }
+  .tiendaMain .textoProd {
+    text-align: center; }
+  .tiendaMain .textoProd__tit {
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .tiendaMain .loQuiero {
+    left: 100px;
+    top: 30px; }
 
-.tiendaMainNav {
-  display: flex;
-  margin-top: 20px; }
-
-.tiendaMainNav__article {
-  text-align: left;
-  padding-left: 40%; }
-
-.tiendaMainNav__img {
-  text-align: left;
-  padding-left: 20px; }
-
-.tiendaMainNav__Filter {
+.aboutUs {
   text-align: center;
-  padding-left: 30px; }
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px; }
+  .aboutUs h1 {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .aboutUs p {
+    align-items: center;
+    font-size: 20px; }
+  .aboutUs .firma1 {
+    margin-top: 50px;
+    font-style: italic; }
 
-.articulos {
-  position: static;
-  margin-top: 50px;
-  margin-left: 10px;
-  width: auto;
-  height: 1300px;
-  width: 400px; }
+.cambiosyDev {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px; }
+  .cambiosyDev h1 {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .cambiosyDev p {
+    align-items: center;
+    font-size: large; }
+  .cambiosyDev .firma {
+    margin-top: 100px;
+    margin-bottom: 100px; }
 
-.articulo1 {
-  position: relative;
-  margin-left: 50px; }
-
-.articulo2 {
-  position: relative;
-  bottom: 475px;
-  left: 600px; }
-
-.articulo3 {
-  position: relative;
-  bottom: 930px;
-  left: 1140px; }
-
-.articulo4 {
-  position: relative;
-  margin-left: 50px;
-  bottom: 720px; }
-
-.articulo5 {
-  position: relative;
-  margin: 0;
-  bottom: 1200px;
-  left: 600px; }
-
-.articulo6 {
-  position: relative;
-  margin: 0;
-  bottom: 930px;
-  left: 1140px;
-  bottom: 1680px; }
-
-.articulos img {
-  width: 400px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  border-radius: 5%; }
-
-.textoProd {
-  text-align: center; }
-
-.textoProd__tit {
-  font-weight: bold;
-  margin-bottom: 10px; }
-
-.loQuiero {
-  left: 100px;
-  top: 30px; }
+.contacto {
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #cfc8c8; }
+  .contacto .buttonContacto {
+    margin-top: 50px; }
