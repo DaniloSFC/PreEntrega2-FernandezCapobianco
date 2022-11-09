@@ -159,14 +159,6 @@ button {
     font-size: 30px;
     content: 200; }
 
-.buttonStore {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 50px; }
-
 .divLine {
   position: relative;
   display: inline-block;
@@ -214,3 +206,19 @@ button {
     margin-left: 2%; }
   .main2 .tit {
     font-weight: 600; }
+
+.main3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1325px;
+  margin: auto;
+  margin-top: 100px; }
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px; }

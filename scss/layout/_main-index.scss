@@ -33,15 +33,6 @@
     }
 }
 
-.buttonStore {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 50px;
-}
-
 .divLine {
     position: relative;
     display: inline-block;
@@ -50,6 +41,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .main2 {
     display: flex;
     flex-direction: row;
@@ -93,4 +85,21 @@
     .tit {
         font-weight: 600;
     }
+}
+
+.main3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1325px;
+    margin: auto;
+    margin-top: 100px;
+}
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
 }
