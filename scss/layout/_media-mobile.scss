@@ -2,7 +2,6 @@
     .header {
         display: flex;
         width: 568px;
-
         .navBar {
             display:none;
         }
@@ -44,7 +43,46 @@
             justify-content: space-evenly;
             width: 50px;
             height: 50px;
-
+        }
+    }
+    .footer {
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+    
+    .footerMain {
+        display: flex;
+        flex-direction: center;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        .div1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .div2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .div3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .div4{
+            display: none;
+        }
+        h2 {
+        margin-bottom: 30px;
+        color: black;
+        }
+        li {
+        margin-top: 10px;
         }
     }
 }
