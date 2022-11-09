@@ -1,0 +1,96 @@
+.main1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    .main1-img {
+        width: 100%;
+    }
+    .main1-1 {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        content: 200;
+    }
+    .main1-2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 110px;
+        color: white;
+        content: 200;
+    }
+    .main1-3 {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        content: 200;
+    }
+}
+
+.buttonStore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.divLine {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    .main2-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        max-width: 25%;
+        margin-right: 2%;
+    }
+    .main2-2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        max-width: 25%;
+        margin-left: 2%;
+    }
+    .main2-3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        max-width: 30%;
+        max-width: 25%;
+        margin-left: 2%;
+    }
+    .tit {
+        font-weight: 600;
+    }
+}
