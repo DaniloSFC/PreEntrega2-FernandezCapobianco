@@ -43,42 +43,21 @@
 }
 
 .main2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
+    @include prop-flex(row,wrap,center,flex-start,flex-start);
     margin-top: 20px;
     margin-bottom: -10px;
     .main2-1{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        @include prop-flex(column,wrap,center,center,center);
         max-width: 25%;
         margin-right: 2%;
     }
     .main2-2{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        @include prop-flex(column,wrap,center,center,center);
         max-width: 25%;
         margin-left: 2%;
     }
     .main2-3{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        max-width: 30%;
+        @include prop-flex(column,wrap,center,center,center);
         max-width: 25%;
         margin-left: 2%;
     }

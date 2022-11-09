@@ -1,0 +1,8 @@
+@mixin prop-flex ($fdirec,$fwrap,$justcont,$alit,$alcont) {
+    display: flex;
+    flex-direction: $fdirec;
+    flex-wrap: $fwrap;
+    justify-content: $justcont;
+    align-items: $alit;
+    align-content: $alcont;
+}
