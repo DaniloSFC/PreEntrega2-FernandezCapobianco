@@ -321,3 +321,62 @@ button {
   background-color: #cfc8c8; }
   .contacto .buttonContacto {
     margin-top: 50px; }
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center; }
+    .header .navBar {
+      display: flex;
+      align-items: center;
+      height: 100px;
+      padding: 0 10px;
+      margin-top: 20px; }
+    .header .logo {
+      height: 70px;
+      padding: 10px; }
+    .header .icons img {
+      align-items: center;
+      padding: 0 10px; }
+    .header .navBar li {
+      padding: 0 10px; } }
+
+@media (max-width: 568px) {
+  .header {
+    display: flex;
+    width: 568px; }
+    .header .navBar {
+      display: none; }
+    .header .logo {
+      height: 50px;
+      width: 75p; }
+    .header .icons img {
+      align-items: right;
+      padding: 0 10px; }
+  .main1 .main1-1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; }
+  .main1 .main1-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white; }
+  .main1 .main1-3 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; }
+  .main1 .main3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 50px; } }

@@ -1,0 +1,50 @@
+@media (max-width:568px) {
+    .header {
+        display: flex;
+        width: 568px;
+
+        .navBar {
+            display:none;
+        }
+        .logo {
+            height: 50px;
+            width: 75p;
+        }
+        .icons img {
+            align-items: right;
+            padding: 0 10px;
+        }
+    }
+    .main1 {
+        .main1-1 {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+        .main1-2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            color: white;
+        }
+        .main1-3 {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+        .main3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 50px;
+            height: 50px;
+
+        }
+    }
+}
